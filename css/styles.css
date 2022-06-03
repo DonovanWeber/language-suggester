@@ -1,7 +1,3 @@
-#outputResult {
-display: contents ;
-}
-
 #dogs, #cats, #snakes {
   display: none;
 }

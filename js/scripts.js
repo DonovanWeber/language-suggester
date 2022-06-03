@@ -6,11 +6,11 @@ $(document).ready(function() {
     const favoriteElf = $("input:radio[name=elf]:checked").val();
     let result;
   if (favoriteAnimal === "dogs") {
-    return $("#dogs").show();
+    $("#resultDogs").show();
   } else if (favoriteAnimal === "cats") {
-    $("#cats").show();
+    $("#resultCats").show();
   } else (favoriteAnimal === "snakes") 
-    $("#snakes").show();
+    $("#resultSnakes").show();
   
   $("#outputResult").show(result);
   
