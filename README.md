@@ -13,13 +13,14 @@
 
 ## Description
 
-This Webpage shows my abilties with CSS and HTML by producing a portfolio blog of personal topics such as my background, hobbies, and general information about me. It also highlights a few of my projects that are in development with Epicodus
+This webpage is a programming language suggester that helps beginner coders
+or people intereseted in coding decide which language to start with. The webpage asks a series questions and based on the results provides a language you should start with.
 
 ## Setup/Installation Requirements
 
-* Clone my project-portfolio repository from Github
+* Clone my language-suggester repository from Github
 * Go to the first level of the directory
-* Open portfolio-project/index.html
+* Open language-suggester/index.html
 
 ## Known Bugs
 
