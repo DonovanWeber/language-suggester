@@ -1,4 +1,4 @@
-# _Promgramming Language Suggester_
+# _Programming Language Suggester_
 
 #### By Donovan Weber
 
