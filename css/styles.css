@@ -1,15 +1,8 @@
 #outputResult {
-display: block;
+display: contents ;
 }
 
-#dogs {
+#dogs, #cats, #snakes {
   display: none;
 }
 
-#cats {
-  display: none;
-}
-
-#snakes {
-  display: none;
-}
