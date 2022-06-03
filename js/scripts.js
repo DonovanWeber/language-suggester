@@ -1,24 +1,27 @@
 $(document).ready(function() {
-  $("form#favoriteAnimal").submit(function(event) {
+  $("form").submit(function(event) {
     event.preventDefault();
     const favoriteAnimal = $("select#favoriteAnimal").val();
     // const favoriteMusic = $("select#favoriteMusic");
     // const favoriteElf = $("input:radio[name=elf]:checked").val();
-   
+   console.log(favoriteAnimal);
   if (favoriteAnimal === "dogs") {
     $("#resultDogs").show();
-    $("#resultDogs").hide();
+    
   } else if (favoriteAnimal === "cats") {
     $("#resultCats").show();
-    $("#resultCats").hide();
-  } else (favoriteAnimal === "snakes") 
+    
+  } else  {
     $("#resultSnakes").show();
-    $("#resultSnakes").hide(); 
+  }
+  $('.btn').click(function() {
+    location.reload();
+});
+  
   
   });
 });
 
-// function favoriteAnimal(favoriteAnimal) {
-//   if ("#fa")
-// }
+
+
 
