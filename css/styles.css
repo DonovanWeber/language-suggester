@@ -1,4 +1,6 @@
-#dogs, #cats, #snakes {
+#resultDogs, #resultCats, #resultSnakes {
   display: none;
 }
-
+#outputResult {
+  display: block;
+}
