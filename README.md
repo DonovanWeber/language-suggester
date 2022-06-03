@@ -2,7 +2,7 @@
 
 #### By Donovan Weber
 
-#### Portfolio of my work at Epicodus and About Me
+#### Application that decides which programming language you should start with.
 
 ## Technologies Used
 
