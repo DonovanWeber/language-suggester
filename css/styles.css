@@ -1,0 +1,15 @@
+#outputResult {
+display: block;
+}
+
+#dogs {
+  display: none;
+}
+
+#cats {
+  display: none;
+}
+
+#snakes {
+  display: none;
+}

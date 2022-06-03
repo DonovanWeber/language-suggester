@@ -27,11 +27,11 @@
       </form>
       <div class="form-group">
        <form id="favoriteAnimal">
-        <label for="favoriteAnimal">What is your favorite animal?</label>
+        <label for="favoriteAnimals">What is your favorite animal?</label>
         <select class="form-control" id="favoriteAnimal">
-          <option>Dogs</option>
-          <option>Cats</option>
-          <option>Snakes</option>
+          <option value="dogs">Dogs</option>
+          <option value="cats">Cats</option>
+          <option value="snakes">Snakes</option>
         </select>
       </form>
 
@@ -70,7 +70,7 @@
           Pop
         </label>
      </div>
-
+     <button type="submit" class="btn">Submit</button>
 
       </form>
  
@@ -84,7 +84,19 @@
 
   </div>
 
-<div id="outputText"> </div>
+<div id="outputResult"> 
+  <div class="result">
+    <div id="dogs">
+     <p>You Should Learn JavaScript!</p>
+    </div>
+    <div id="cats">
+     <p> You Should Learn C#!</p>
+    </div>
+    <div id="snakes">
+      <p>You Should Learn Python!</p>
+    </div>
+  </div> 
+</div>
 
 
 
