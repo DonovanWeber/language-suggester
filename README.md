@@ -14,7 +14,7 @@
 ## Description
 
 This webpage is a programming language suggester that helps beginner coders
-or people intereseted in coding decide which language to start with. The webpage asks a series questions and based on the results provides a language you should start with.
+or people intereseted in coding decide which language to start with. The webpage asks a series of questions and based on the results provides a language you should start with.
 
 ## Setup/Installation Requirements
 
